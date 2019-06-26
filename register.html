@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link  rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet"> 
+</head>
+<header>
+        <ul class="nav-block">
+            <li class="nav-bar"><a href="website.html">Home</a></li>
+            <li class="nav-bar"><a href="register.html">Register&nbsp</a></li>
+            <li class="nav-bar"><a href="find.html">Find&nbsp</a></li>
+            <li class="nav-bar"><a href="list.html">List&nbsp</a></li>
+         </ul>
+</header>  <br>
+<body>
+    <h1>Register</h1>
+    <form action="GET">
+        
+        <div class="credit">
+            
+            First Name: <input class="credit" type="text" name="firstname"><br>
+            Last Name: <input class="credit" type="text" name="lastname"><br>
+            Email: <input class="credit" type="text" name="email"><br>
+            Password: <input class="credit" type="password" min="8" name="psw"> <br>
+            Re-Enter Password: <input class="credit" type="re-password" min="8" name="psw"> <br>
+            Birthday: Month<input class="credit" type="month" name="bm" > Day<input type="number" name="bd" min="1" max="31" > Year<input type="number" name="by" min="1800" max="2019"> <br>
+            Gender: <br>
+            <input class="credit" type="radio" name="opt">Male<br>
+            <input class="credit" type="radio" name="opt">Female<br>
+            <input class="credit" type="radio" name="opt">Other: Female<input type="range" >Male<br>
+    </div>
+    <div class="credit">
+        Cars: <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="audi">Audi</option>
+     </div>
+        </select><br>
+        
+
+        <input type="submit" value="Register!">
+        <input type="reset" value="Clear">
+
+
+
+    </form>
+</body>
+    <footer>
+        This is space.
+    </footer>
+</html>
